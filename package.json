@@ -1,0 +1,30 @@
+{
+  "name": "sync-state-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suraj-Kumar/sync-state-system.git"
+  },
+  "author": "suraj kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Suraj-Kumar/sync-state-system/issues"
+  },
+  "homepage": "https://github.com/Suraj-Kumar/sync-state-system#readme",
+  "dependencies": {
+    "axios": "0.21.4",
+    "axios-retry": "3.1.9",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-json-validator-middleware": "^2.2.1",
+    "mysql2": "^2.3.0",
+    "node-cron": "^3.0.0",
+    "sequelize": "^6.6.5"
+  }
+}
